@@ -538,6 +538,12 @@
         width: 40%;
         padding: 2px;
     }
+    
+    #latest-works {
+        width: 1920px;
+        height: 1270px;
+        background-color: #f2f5f7;
+    }
     /* footer .contacts {
         float: bottom;
     } */
