@@ -55,8 +55,7 @@
         border: none;
         font-size: 17px;
     }
-    
-    #hero h1 {
+    /* #hero h1 {
         font-size: 78px;
         line-height: 110%;
         font-weight: 900;
@@ -66,13 +65,14 @@
         -webkit-transition: font 200ms ease-out;
         -moz-transition: font 200ms ease-out;
         -o-transition: font 200ms ease-out;
-        transition: font 200ms ease-out
-    }
+        transition: font 200ms ease-out;
+        padding-top: 100px;
+    } */
     /* Style for "Made for D" */
     
     .item {
         width: 1400px;
-        height: 300px;
+        height: 500px;
         color: #a3b1bf;
         font-family: "Source Sans Pro";
         font-size: 20px;
@@ -89,7 +89,7 @@
         letter-spacing: 4.68px;
         line-height: 88px;
         text-transform: uppercase;
-        padding: 70px 0 0 0;
+        padding: 150px 0 0 0;
         text-align: center;
     }
     /* Text style for "Create you" */
@@ -134,13 +134,13 @@
     /* // Style for "Beautiful." */
     
     .beautiful {
-        width: 1400px;
+        width: 1300px;
         height: 300px;
         color: #73879c;
         font-family: "Source Sans Pro";
         font-size: 22px;
         font-weight: 400;
-        padding: 100px 0 10px 80px;
+        padding: 100px 0 10px 0px;
         text-justify: auto;
         text-align: center;
     }
@@ -245,13 +245,13 @@
     }
     
     .checkout {
-        width: 1400px;
+        width: 1300px;
         height: 300px;
         color: #73879c;
         font-family: "Source Sans Pro";
         font-size: 22px;
         font-weight: 400;
-        padding: 300px 0 10px 80px;
+        padding: 300px 0 10px 0px;
         text-justify: auto;
         text-align: center;
     }
@@ -309,13 +309,13 @@
     }
     
     .want {
-        width: 1400px;
+        width: 1300px;
         height: 300px;
         color: #73879c;
         font-family: "Source Sans Pro";
         font-size: 22px;
         font-weight: 400;
-        padding: 100px 0 10px 80px;
+        padding: 100px 0 10px 0px;
         text-justify: auto;
         text-align: center;
     }
@@ -367,16 +367,17 @@
     
     footer {
         font-size: 14px;
-        line-height: 22px
+        line-height: 22px;
     }
     
     footer.dark-bg {
-        color: #a3b1bf
+        color: #a3b1bf;
     }
     
     footer .inner {
         padding-top: 45px;
-        padding-bottom: 35px
+        padding-bottom: 35px;
+        padding-left: 15px;
     }
     
     footer .container>.row {
@@ -385,7 +386,15 @@
     }
     
     footer .row .inner {
-        padding: 25px
+        padding: 10px 0 100px 100px;
+        width: 230px;
+        height: 310px;
+        color: #a3b1bf;
+        font-family: "Source Sans Pro";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        float: left;
     }
     
     footer .logo {
@@ -395,16 +404,150 @@
     
     footer h4 {
         text-transform: uppercase;
-        margin-bottom: 20px
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
     }
     
     footer p {
-        margin-bottom: 15px
+        margin-bottom: 15px;
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        letter-spacing: 0.28px;
+    }
+    
+    .inner a {
+        margin-bottom: 15px;
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        letter-spacing: 0.28px;
+        color: white;
     }
     
     .footcolor {
         width: 1400px;
-        height: 300px;
+        height: 400px;
         background-color: #2f4052;
         background-color: #2f4052;
     }
+    
+    aside .txt-btn {
+        font-size: 100%
+    }
+    
+    .txt-btn {
+        font-size: 105%;
+        font-weight: 700;
+        font-family: "Source Sans Pro";
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+    }
+    
+    .txt-btn:after {
+        /* font-family: 'fontello'; */
+        font-size: 75%;
+        content: '\e846';
+        margin-left: 7px;
+        -webkit-transition: all 200ms ease-out;
+        -moz-transition: all 200ms ease-out;
+        -o-transition: all 200ms ease-out;
+        transition: all 200ms ease-out
+    }
+    
+    .txt-btn:hover:after {
+        margin-left: 12px
+    }
+    /* .inner ul {} */
+    
+    ul.contacts {
+        padding-left: 0px;
+    }
+    
+    ul.contacts li {
+        margin-bottom: 10px;
+    }
+    
+    footer ul.contacts li {
+        margin-bottom: 2px;
+        padding-left: 5px;
+        float: bottom;
+    }
+    
+    .newsletter {
+        position: relative
+    }
+    
+    .newsletter input[type="email"] {
+        background: rgba(255, 255, 255, 0.15);
+        padding-right: 100px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 0;
+        color: #FFF!important;
+        width: 130px;
+        height: 40px;
+        background-color: #ffffff;
+        opacity: 0.15;
+    }
+    
+    .newsletter input[type="email"]:focus {
+        background: rgba(255, 255, 255, 0.20)
+    }
+    
+    .newsletter .btn-submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-left: 10px;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: #FFF!important;
+        line-height: 1;
+        width: 88px;
+        height: 30px;
+        box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+        background-color: #00bc9c;
+        background-color: #00bc9c;
+    }
+    
+    footer .newsletter .btn-submit {
+        width: 88px;
+        height: 30px;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+    footer .form-control {
+        width: 151px;
+        height: 14px;
+        color: #828e99;
+        color: #a3b1bf;
+        font-family: "Source Sans Pro";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    
+    .thumb img {
+        float: left;
+        width: 40%;
+        padding: 2px;
+    }
+    /* footer .contacts {
+        float: bottom;
+    } */
+    /* footer .row .innerLatest {} */
+    /* Text style for "More about" */
+    /* font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px; */
+    /* font-family: "Source Sans Pro";
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px; */
